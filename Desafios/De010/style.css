@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+    
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+}
+body{
+    margin: 0px;
+    background-color: #aff8c5;
+}
+header{
+    padding: 2px;
+    background-image: linear-gradient(180deg, #57ff89 , #07491a 30% );
+    color: white;
+    height: 50%;
+    background-attachment: fixed;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    
+    
+}
+header > .principal{
+    text-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 0.308);
+    text-align: center;
+    font-weight: bold;
+    
+}
+header > h1{
+    font-size: 30px;
+}
+header > p{
+    font-size: 13px;
+}
+header > nav > a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+}
+main{
+    background-color: white;
+    width: 900px;
+    height: auto;
+    margin: auto;
+    font-weight: normal;
+    padding: 5px;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.562);
+}
+main > h1,h2{
+    font-family: 'idroid', sans-serif;
+    color: rgb(11, 146, 45);
+    font-size: 24px;
+
+}
+main > article{
+    margin: 20px 0px 20px 50px;
+    
+}
+section > h1#pet{
+    font-size: 24px;
+    color: rgb(11, 146, 45);
+    font-family: 'idroid', sans-serif;
+    
+}
+main > article > section > p{
+    text-indent: 20px;
+}
+main > article > section > h2{
+    background-image: linear-gradient(90deg, rgba(170, 255, 170, 0.726), white);
+    background-attachment: fixed;
+}
+img#bugdroid{
+    margin: auto;
+    display: block;
+}
+section#lista{
+    background-color: #c3fcd4;
+    border-radius: 10px;
+    padding: 0px 0px 5px 0px;
+    margin: 5px 50px 5px 50px;
+    
+}
+h3{
+    color: white;
+    background-color: #5aa370;
+    border-radius: 10px 10px 0px 0px;
+    padding: 2px;
+}
+section#lista > p{
+    text-indent: 20px;
+}
+
+footer{
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+    background-color: #41b461;
+    padding: 0.1px;
+    margin: 0px;
+    font-weight: bold;
+}
+strong{
+    color: #258a41;
+}
+section > p > a::after{
+    content: '🔗';
+}
+iframe{
+    padding: 10px 100px 10px 195px;
+    background-color: #07491a;
+}

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(90deg, #F2CCBD, #d8af9d);
+}
+h1,h2{
+    color: #D1F2BD;
+    
+    
+    text-align: center;
+    margin: auto;
+    height: 30px;
+    
+
+
+}
+main{
+    
+    background-color: white;
+    width: 600px;
+    margin:auto;
+    font: normal 16px Arial, verdana, serif;
+    text-align: justify;
+    border-radius: 8px;
+    padding: 5px;
+    text-indent: 30px;
+}
+

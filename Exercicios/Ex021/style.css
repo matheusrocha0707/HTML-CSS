@@ -1,0 +1,67 @@
+@charset "UTF-8";
+footer > p{
+    margin: 0px;
+    text-align: center;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: bisque;
+    margin: 0px;
+}
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.329);
+}
+article{
+    background-color: rgb(252, 242, 224);
+    padding: 5px;
+    text-align: justify;
+}
+article > aside{
+    background-color: rgb(224, 215, 204);
+    text-align: right;
+    
+}
+nav{
+    background-color: blanchedalmond;
+    padding: 1px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.267);
+}
+nav > a{
+    background-color: antiquewhite;
+    border: 1px solid rgba(0, 0, 0, 0.041);
+    font-size: 20px;
+    padding-left: 5px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    
+}
+nav > a:hover{
+    text-decoration: underline;
+    color: rgb(228, 204, 176);
+}
+footer{
+    background-color: rgb(236, 205, 167);
+    padding: 4px;
+    margin: 0px;
+    font-weight: bold;
+} 
+div#bola{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}

@@ -1,0 +1,29 @@
+@charset "UTF-8"
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+body{
+    background-color: rgb(255, 240, 222);
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    margin:auto;
+    padding: 10px;
+    width: 600px;
+    border-radius: 100px;
+    
+}
+h1{
+    font-family: cursive;
+    text-align: center;
+    color: rgb(241, 158, 158);
+    font-size: 60px;
+}
+p{
+    margin-left: 50px;
+    margin-top: 15px;
+    text-align: justify;
+    font-size: 25px;
+}

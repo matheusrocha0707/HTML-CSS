@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a{
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:visited{
+        color: darkred;
+    }
+    a:hover{
+        text-decoration: underline;
+        color: blue;
+    }
+    a:active{
+        color: green;
+    }
+    .especial::before{
+        content: '>>';
+    }
+    .especial::after{
+        content: '<<';
+    }
+    .especial{
+        background-color: darkblue;
+        color: white;
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .especial:visited{
+        color: white;
+    }
+    .especial:active{
+        color: blueviolet;
+    }
+    .gay{
+        font-size: 30px;
+        color: gray;
+        background-color: lightblue;
+        border: 1px solid black;
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+        padding: 100px;
+    }
+</style>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank" rel="external">Github</a></li>
+        <li><a href="https://www.youtube.com/@blu3zinkk" target="_blank" rel="external" class="especial gay">youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank" rel="external">Site curso em video</a></li>
+        <li><p class="gay">vai tomar no cu pfv?</p></li>
+    </ul>
+</body>
+</html>

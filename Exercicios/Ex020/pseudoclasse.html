@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-classes</title>
+    <style>
+        div{
+            background-color: lightgray;
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            display: inline-block;
+        }
+        div:active{
+            background-color: aqua;
+            
+        }
+        a{
+            font-weight: normal;
+            text-decoration: none;
+            font-family: cursive;
+            font-size: 30px;
+            background-color: #76ad22;
+            color: white;
+            margin: 250px;
+            
+
+        }
+        a:hover{
+            background-color: red;
+            color: white;
+            text-decoration: underline;
+        }
+        a:visited{
+            background-color: #4c7016;
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+    <a href="hover.html" target="_self" rel="next">Pagina 2</a>
+</body>
+</html>
